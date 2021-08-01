@@ -1,0 +1,148 @@
+.contact
+{
+    width:100%;
+    position: relative;
+    min-height: 100vh;
+    background:#000;
+    padding:100px;
+    color:#fff;
+    transition:.5s;
+    scroll-behavior: smooth;
+}
+.contact .title
+{
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor:pointer;
+}
+.contact .title:hover div
+{
+    transform:scaleX(2.6);
+    background: #00bcd4;
+}
+.contact .title h2
+{
+    font-size:1.8em;
+}
+.contact .title div
+{
+    height:7px;
+    width:50px;
+    background:#fff;
+    border-radius: 50px;
+    transition:.5s;
+    margin-bottom:20px;
+    margin-top:10px;
+}
+section#contact .title p
+{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    font-family: 'Poppins',sans-seriff;
+    text-align: center;
+}
+.contact .contactForm
+{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+.contact .contactForm .row
+{
+    display: flex;
+}
+.contact .contactForm .col50 input
+{
+    background:#000;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    padding:20px;
+    margin:10px;
+    border:2px solid #00bcd4;
+}
+.contact .contactForm .col100I Textarea
+{
+    height:160px;
+    width:580px;
+    background:#000;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    padding:20px;
+    margin:10px;
+    border:2px solid #00bcd4;
+}
+.contact .contactForm .row .col100 Button
+{
+    height:50px;
+    width:100px;
+    color:#000;
+    background:#00bcd4;
+    font-size:18px;
+    font-weight:600;
+    line-height: 25px;
+}
+@media(max-width:396px)
+{
+    section#contact
+    {
+        padding:20px;
+    }
+    section#contact .contactForm
+    {
+        flex-direction: row;
+        padding:0px;
+        margin-top:15px;
+    }
+    section#contact .contactForm .row
+    {
+        flex-direction: column;
+    }
+    section#contact .contactForm .row
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width:100%; 
+    }
+    section#contact .contactForm .row .col50 input
+    {
+        padding:10px;
+        margin:5px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    section#contact .contactForm .rowI
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width:100%;
+    }
+    section#contact .contactForm .col100I
+    {
+        transform: scale(.4);   
+    }
+    .toggle
+    {
+        right:65px;
+    }
+}
+@media(max-width:991px)
+{
+    section#contact .contactForm
+    {
+        flex-direction: row;
+    }
+}

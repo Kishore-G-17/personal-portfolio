@@ -1,0 +1,30 @@
+@media(max-width: 396px)
+{
+    .banner .contentBox .content
+    {
+        transform:scale(0.85);
+    }
+    .banner .contentBox .logotext
+    {
+        left:44px;
+    }
+    .banner .contentBox .socialMedias
+    {
+        left:250px;
+        bottom:0px;
+    }
+    .banner .contentBox .socialMedias li a img
+    {
+        transform:scale(.4);
+        margin:0px;
+    }
+    .banner .contentBox .content .aboutMeBtn
+    {
+        margin:0px;
+        padding:6px 15px;
+    }
+    .banner .contentBox .socialMedias li a img:hover
+    {
+        transform:scale(0.6);
+    }
+}

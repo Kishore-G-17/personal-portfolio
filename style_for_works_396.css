@@ -1,0 +1,19 @@
+@media(max-width:396px)
+{
+    section#works
+    {
+        padding:0px;
+    }
+    section#works .title
+    {
+        padding:20px;
+    }
+    section#works .title p
+    {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 25px;
+        font-family: 'Poppins',sans-seriff;
+        text-align: center;
+    }
+}

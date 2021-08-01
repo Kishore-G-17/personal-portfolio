@@ -1,0 +1,92 @@
+.services
+{
+    width:100%;
+    position: relative;
+    min-height: 100vh;
+    background:#fff;
+    padding:100px;
+    color:#000;
+    transition:.5s;
+    scroll-behavior: smooth;
+}
+.services .title
+{
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor:pointer;
+}
+.services .title:hover div
+{
+    transform:scaleX(2.6);
+    background: #00bcd4;
+}
+.services .title h2
+{
+    font-size:1.8em;
+    font-weight: 700;
+}
+.services .title div
+{
+    height:7px;
+    width:50px;
+    background:#000;
+    border-radius: 50px;
+    transition:.5s;
+    margin-bottom:15px;
+}
+.services .content
+{
+    margin-top:0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.services .content .serviceBox
+{
+    padding:50px 20px;
+    max-width:340px;
+    margin:20px;
+    transition:.5s;
+    text-align:center;
+    background: #f5f5f5;
+    cursor:pointer;
+}
+.services .content .serviceBox:hover
+{
+    background:#000;
+}
+.services .content .serviceBox img
+{
+    max-width:80px;
+    transition:.5s;
+}
+.services .content .serviceBox:hover img
+{
+    filter:invert(1);
+}
+.services .content .serviceBox h2
+{
+    transition:.5s;
+    font-family: 'Poppins',sans-serif;
+}
+.services .content .serviceBox p
+{
+    font-size:18px;
+    line-height: 25px;
+    font-family: 'Poppins',sans-serif;
+    transition:.5s;
+}
+.services .content .serviceBox:hover h2
+{
+    color:#fff;
+    transform:translateY(20px);
+}
+.services .content .serviceBox:hover p
+{
+    color:#fff;
+    transform:translateY(20px);
+}

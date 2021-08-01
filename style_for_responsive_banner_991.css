@@ -1,0 +1,24 @@
+@media(max-width:991px)
+{
+    .banner .contentBox .logotext
+    {
+        left:20px;
+    }
+    .banner .imageBox
+    {
+        display:none;
+    }
+    .banner .contentBox , .menuBar
+    {
+        width:100%;
+        padding:20px;
+    }
+    .banner .contentBox .content .aboutMeBtn
+    {
+        padding:6px 15px;
+    }
+    .banner .contentBox .socialMedias
+    {
+        left:20px;
+    }
+}

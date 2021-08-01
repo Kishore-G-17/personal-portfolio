@@ -1,0 +1,79 @@
+.works
+{
+    width:100%;
+    position: relative;
+    min-height: 100vh;
+    background:#f5f5f5;
+    padding:100px;
+    color:#000;
+    transition:.5s;
+    scroll-behavior: smooth;
+}
+.works .title
+{
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor:pointer;
+}
+.works .title:hover div
+{
+    transform:scaleX(2.6);
+    background: #00bcd4;
+}
+.works .title h2
+{
+    font-size:1.8em;
+    font-weight: 700;
+}
+section#works .title p
+{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    font-family: 'Poppins',sans-seriff;
+    text-align: center;
+}
+.works .title div
+{
+    height:7px;
+    width:50px;
+    background:#000;
+    border-radius: 50px;
+    transition:.5s;
+    margin-bottom:15px;
+}
+.works .content
+{
+    margin-top:20px;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.works .content .workPic
+{
+    max-width:300px;
+    height:300px;
+    margin:20px;
+    cursor:pointer;
+    border:15px solid #fff;
+    border-bottom:40px solid #fff;
+    transition:.5s;
+}
+.works .content .workPic img
+{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+.works .content .workPic p
+{
+    transition:.5s;
+    font-size:18px;
+    line-height: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
